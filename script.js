@@ -21,6 +21,7 @@ function operate(operator, a, b) {
   return operations[operator](a, b);
 }
 
+if (typeof document !== 'undefined') {
 const display = document.querySelector('#display');
 const history = document.querySelector('#history');
 const keys = document.querySelector('.keys');
@@ -111,6 +112,7 @@ function selectOperator(nextOperator) {
     if (hasError) return;
   }
 
+  justCalculated = false;
   firstOperand = Number(currentInput);
   operator = nextOperator;
   waitingForSecondOperand = true;
@@ -166,6 +168,8 @@ document.addEventListener('keydown', (event) => {
 });
 
 render();
+
+}
 
 // Exporta las funciones matemáticas para poder probarlas en Node.js.
 if (typeof module !== 'undefined' && module.exports) {
