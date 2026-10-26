@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#111827" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <main class="page">
+      <section class="calculator" aria-label="Calculadora">
+        <header class="calculator__header">
+          <p class="eyebrow">CALCULADORA</p>
+          <h1>Haz tus cuentas.</h1>
+        </header>
+        <div class="display" aria-live="polite" aria-atomic="true">
+          <p class="display__history" id="history"></p>
+          <p class="display__value" id="display">0</p>
+        </div>
+        <div class="keys" aria-label="Teclas de la calculadora">
+          <button class="key key--utility" data-action="clear" aria-label="Limpiar todo">AC</button>
+          <button class="key key--utility" data-action="backspace" aria-label="Borrar último dígito">⌫</button>
+          <button class="key key--operator" data-operator="/" aria-label="Dividir">÷</button>
+          <button class="key key--operator" data-operator="*" aria-label="Multiplicar">×</button>
+          <button class="key" data-digit="7">7</button><button class="key" data-digit="8">8</button><button class="key" data-digit="9">9</button>
+          <button class="key key--operator" data-operator="-" aria-label="Restar">−</button>
+          <button class="key" data-digit="4">4</button><button class="key" data-digit="5">5</button><button class="key" data-digit="6">6</button>
+          <button class="key key--operator" data-operator="+" aria-label="Sumar">+</button>
+          <button class="key" data-digit="1">1</button><button class="key" data-digit="2">2</button><button class="key" data-digit="3">3</button>
+          <button class="key key--equals" data-action="equals" aria-label="Igual">=</button>
+          <button class="key key--zero" data-digit="0">0</button><button class="key" data-action="decimal" aria-label="Punto decimal">.</button>
+        </div>
+        <p class="hint">También puedes usar el teclado</p>
+      </section>
+    </main>
+  </body>
+</html>
