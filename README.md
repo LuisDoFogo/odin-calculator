@@ -1,37 +1,37 @@
-# Calculadora
+# Calculator
 
-Este proyecto es una calculadora hecha con HTML, CSS y JavaScript, como práctica de los fundamentos de The Odin Project. Permite hacer operaciones básicas desde los botones o el teclado.
+This project is a calculator built with HTML, CSS, and JavaScript as practice for The Odin Project Foundations. It can perform basic operations using the on-screen buttons or the keyboard.
 
-## Funciones
+## Features
 
-- Sumar, restar, multiplicar y dividir.
-- Encadenar operaciones de izquierda a derecha.
-- Escribir números decimales y borrar el último carácter.
-- Usar la calculadora con el ratón o el teclado.
-- Limpiar la operación con el botón **AC** o con `Escape`.
-- Mostrar un mensaje si se intenta dividir entre cero.
+- Add, subtract, multiply, and divide.
+- Chain operations from left to right.
+- Enter decimal numbers and delete the last character.
+- Use the calculator with the mouse or keyboard.
+- Clear the calculation with the **AC** button or `Escape`.
+- Show an error message when dividing by zero.
 
-## Cómo abrirla
+## How to run it
 
-No necesita instalar paquetes. Abre `index.html` en un navegador. Si usas VS Code, también puedes abrir el archivo directamente desde la carpeta del proyecto.
+No packages are required. Open `index.html` in a browser. If you use VS Code, you can open the file directly from the project folder.
 
-## Teclas disponibles
+## Keyboard controls
 
-| Tecla | Acción |
+| Key | Action |
 | --- | --- |
-| `0`–`9` | Escribir un número |
-| `.` | Escribir un decimal |
-| `+`, `-`, `*`, `/` | Elegir una operación |
-| `Enter` o `=` | Calcular |
-| `Backspace` | Borrar el último carácter |
-| `Escape` | Limpiar la calculadora |
+| `0`–`9` | Enter a number |
+| `.` | Enter a decimal point |
+| `+`, `-`, `*`, `/` | Choose an operation |
+| `Enter` or `=` | Calculate |
+| `Backspace` | Delete the last character |
+| `Escape` | Clear the calculator |
 
-## Archivos
+## Project files
 
-- `index.html`: estructura de la página y botones.
-- `style.css`: diseño y colores.
-- `script.js`: operaciones y comportamiento de la calculadora.
+- `index.html`: page structure and calculator buttons.
+- `style.css`: layout and colors.
+- `script.js`: math operations and calculator behavior.
 
-## Tecnologías
+## Technologies
 
-HTML, CSS y JavaScript vanilla. No se usan frameworks ni `eval()`.
+Vanilla HTML, CSS, and JavaScript. No frameworks or `eval()` are used.
